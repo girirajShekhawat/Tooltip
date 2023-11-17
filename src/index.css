@@ -11,3 +11,102 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bodyView{
+height: 99vh;
+width: 99vw;
+}
+
+
+/* bottons postions and bottons styling */
+
+.btnPosition{
+  margin-top: 5%;
+  width: 80%;
+  height: 10%;
+  margin-left: 1%;
+display: flex;
+justify-content: space-between;
+
+}
+
+.btnText{
+margin-top: -1%;
+
+}
+
+.btn{
+height: 40px;
+width: 60px;
+background: rgba(72 ,193 , 110 ,0.5);
+border-radius: 8px;
+ border: 3px solid black;
+
+}
+
+
+/* hoverable box styling */
+.position{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.hoverDiv{
+  margin-top: 200px;
+  height: 100px;
+  width: 300px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: cadetblue;
+}
+
+/* tooltip styling according to the position */
+
+.right{
+  height:70px;
+  width: 100px;
+  margin-top: -120px;
+  margin-left: 64%;
+  padding: 6px 10px 15px 10px;
+  border:1px  solid black;
+  border-radius: 10px;
+  background-color: rgba(17 , 80, 197,0.5);
+}
+
+.left{
+  height:70px;
+  width: 100px;
+  margin-top: -120px;
+  margin-left: 27%;
+  padding: 6px 10px 15px 10px;
+  border:1px  solid black;
+  border-radius: 10px;
+  background-color: rgba(14 , 225, 95,0.5);
+}
+
+.top{
+  height:70px;
+  width: 100px;
+  margin-top: -240px;
+  margin-left: 45%;
+  padding: 6px 10px 15px 10px;
+  border:1px  solid black;
+  border-radius: 10px;
+  background-color: rgba(14 , 225, 95,0.5);
+}
+
+.down{
+  height:70px;
+  width: 100px;
+  margin-left: 45%;
+  padding: 6px 10px 15px 10px;
+  border:1px  solid black;
+  border-radius: 10px;
+  background-color: rgba(14 , 225, 95,0.5);
+}
+
+/* for active btn */
+.active{
+  background-color: rgba(104 , 23 ,227 ,0.3);
+}
